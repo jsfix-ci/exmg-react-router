@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import createHistory from 'history/createHashHistory';
+import { createHashHistory as createHistory } from 'history';
 
 export const routerContextTypes = {
 	router: PropTypes.shape({
